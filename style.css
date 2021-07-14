@@ -1,0 +1,357 @@
+/*----------Font aweesome-----------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/*----------body font family-----------------------*/
+
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+																			/* -------------- 
+																			body Headder part 
+																			---------------*/
+
+
+/*----------Designing of section-----------------------*/
+
+.first_part{
+
+	 display: flex;
+	 background-color: darkblue;
+}
+
+
+/*----------header  div desipn -----------------------*/
+
+
+.copa_games{
+
+	width: 50%;
+	
+
+}
+#copa_games{
+	width: 40%;
+	padding-left: 156px;
+	padding-top: 207px;
+
+}
+.tornament{
+	font-size: 64px;
+	color: whitesmoke;
+
+}
+
+/*-------------------------button design----------------------------------*/
+
+button{
+	widows: 168px;
+	height: 44px;
+	padding: 10px 24px;
+	background-color: #E02C6D;
+	border: 0;
+	font-size: 15px;
+	color: whitesmoke;
+}
+
+
+/*-----------------player image design---------------------*/
+
+
+.player_photo{
+	width: 950px;
+	height: 950px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.player_photo:hover{
+	width: 970px;
+	height: 970px;
+	transition: width 2s, height 2s;
+}																								
+
+																								/* ------------- 
+																								Headder part end
+																								---------------*/
+
+
+																								/* ----------------- 
+																								body main part start
+																								-------------------*/
+/*-----------------grid design start---------------------*/
+
+
+/*-----------------section design---------------------*/
+
+.player{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding-left: 225px;
+	grid-row-gap: 60px;
+	padding-top: 70px;
+}
+
+
+/*-----------------player article ---------------------*/
+
+.player_profile{
+
+	border: 2;
+	width: 320px;
+	height: 550px;
+	margin-bottom: 10px;
+	box-shadow: 10px 10px  ash;
+	background-color: whitesmoke;
+	
+}
+
+/*-----------------player image design---------------------*/
+
+.player_pic{
+	padding: 9px 9px;
+	width: 300px;
+	height: 300px;
+}
+
+
+/*-----------------heading and paragraph design---------------------*/
+
+h2,p{
+	padding: 9px 9px;
+}
+
+/*-----------------grid design end---------------------*/
+
+
+
+
+							/*----------
+							 footer design
+							 -----------*/
+.footer{
+	padding-top: 158px;
+padding-left: 650px;
+}
+
+/*--------------------- logo design------------- */
+.logo{
+	width: 483.87px;
+	height: 110px;
+}
+
+#logo{
+	width: 483.87px;
+	height: 110px;
+}
+
+
+/*--------------------- icon design------------- */
+.social_icon{
+	padding-top: 20px;
+	padding-bottop: 20px;
+	text-align: center;
+	width: 483.87px;
+	height: 110px;
+
+}
+i{
+	margin: 5px;
+}
+
+.fab{
+	color: darkgray;
+}
+
+.copyright{
+
+font-size: 28px;
+}
+							/*----------------
+							 footer design end
+							 ----------------*/
+
+
+/* ----------------------match up scoreboard design--------------------*/
+
+/*section*/
+
+
+.matchup{
+display: flex;
+}
+.game_time{
+	display: flex;
+
+	border: 0px grey;	
+	width: 50%;
+	box-shadow: 5px 5px grey;
+	background-color: whitesmoke;
+
+	margin-left: 450px;
+}
+
+#tag{
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.matchup{
+
+padding-left: 120px;
+align-items: center;
+
+}
+.color{
+	background-color: lightblue;
+	padding-bottom: 70px;
+}
+/* section design end*/
+
+																									/* ------------
+																									    Media querry        
+																									 --------------- */
+
+
+
+
+																									 /*-----------Mobile Device----------*/
+
+
+
+@media only screen and (max-width: 688px){
+	#copa_games{
+		padding-top: 20px;
+
+}
+
+.first_part{
+	background-color: white;
+}
+.tornament{
+	color: black;
+}
+
+button{
+	margin: 15px;
+}
+
+.player_photo {
+    width: 600;
+    height: 600;
+}
+
+.copa_games {
+    
+    padding-left: 422px;
+}
+
+
+.player {
+     padding-left: 400px;
+    grid-template-columns: repeat(1, 1fr);
+        padding-left: 350px;
+    grid-row-gap: 90px;
+    padding-top: 190;
+}
+
+.player_profile {
+    
+    width: 520px;
+    height: 650px;
+}
+
+.player_pic {
+   
+    width: 510;
+    height: 410px;
+}
+
+.color {
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+#tag {
+    align-content: center;
+  
+    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-left: 600px;
+}
+
+.matchup {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    padding-top: 158px;
+    padding-left: 350px;
+}
+
+}
+
+
+
+
+																					/*-----------Tablet Device----------*/
+@media only screen and (min-width: 689px) and (max-width: 991px){
+
+.first_part{
+	background-color: white;
+}
+
+.tornament{
+	color: black;
+}
+
+/*player photo*/
+
+
+.player_photo {
+     width: 750px;
+    height: 950px
+    padding-top: 150px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+}
+
+.player{
+	 grid-template-columns: repeat(2, 1fr);
+
+	 margin-left: 130px;
+}
+
+
+.color{
+
+    background-color: white;
+    padding-bottom: 70;
+
+}
+#tag {
+    padding-left: 666;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.matchup {
+    
+    width: 10;
+    align-items: center;
+}
+
+
+.footer {
+    padding-top: 158px;
+    padding-left: 350px;
+}
+}
